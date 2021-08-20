@@ -1,0 +1,27 @@
+import styled from "styled-components";
+
+export const Wrapper = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 20px;
+	color: var(--darkGrey);
+	font-size: var(--fontMed);
+
+	input {
+		width: 100%;
+		height: 40px;
+		border: 1px solid var(--darkGrey);
+		border-radius: 20px;
+		margin: 10px 0;
+		padding: 10px;
+	}
+
+	.error {
+		color: #f00;
+		font-size: var(--fontSmall);
+	}
+`;

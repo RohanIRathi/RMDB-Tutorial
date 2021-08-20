@@ -12,10 +12,27 @@ export const Content = styled.div`
 	max-width: var(--maxWidth);
 	padding: 20px 0;
 	margin: 0 auto;
+	color: var(--white);
+
+	a {
+		color: var(--white);
+		text-decoration: none;
+	}
+`;
+
+export const Login = styled.span`
+	max-width: 300px;
+	border: 3px solid;
+	padding: 5px 15px;
+	border-radius: 25px;
+	margin-right: 5px;
+	margin-left: auto;
 `;
 
 export const LogoImg = styled.img`
 	width: 200px;
+	margin-left: 20px;
+	margin-right: auto;
 
 	@media screen and (max-width: 500px) {
 		width: 150px;
@@ -24,6 +41,8 @@ export const LogoImg = styled.img`
 
 export const TMDBLogoImg = styled.img`
 	width: 100px;
+	margin-right: 20px;
+	margin-left: 5px;
 
 	@media screen and (max-width: 500px) {
 		width: 80px;
